@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">☀️ WeatherApp</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="header">
+            <h1>Welcome to the Weather App</h1>
+            <p>Get real-time weather updates of any city worldwide.</p>
+        </header>
+
+        <section class="weather-container">
+            <div class="search-box">
+                <input id="city-input" type="text" placeholder="Enter city name">
+                <button id="search-button">Search</button>
+            </div>
+
+            <div class="weather-info">
+                <h3 id="city-name">Canada, Ontario - Toronto</h3>
+                <h6 id="city-time">Local Time</h6>
+                <p id="city-temperature">13°C</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2025 WeatherApp | All rights reserved</p>
+        </footer>
+    </body>
+    <script src="script.js" async defer></script>
+</html>

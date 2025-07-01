@@ -15,7 +15,8 @@ document.querySelector(".weather-info").append(weatherCondition, humidity, windS
 
 async function getData(city) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=3f12428bfa494f85b7015659240704=${city}&aqi=yes`);
+        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=71e3873581f04e7fa15173013250107&q=${city}&aqi=yes`);
+
         
         if (!response.ok) {
             throw new Error("City not found");
